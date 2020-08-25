@@ -1,18 +1,23 @@
 
+# environment-setup
 
-# Project Name
+Tool to easily setup python environment. 
+
+ps: Doesnt work yet 
 
 ## Installation
 
 ### Build from Source
+
 Clone the repository and checkout to stable commit
 
 ```
-git clone https://github.com/cannibalcheeseburger/environment-setup.git
-cd environment-setup
+git clone https://github.com/cannibalcheeseburger/subtitles-downloader.git
+cd subtitles-downloader
 ```
 
 ### Install Requirements
+
 For pipenv:
 ```
 pipenv install
@@ -23,6 +28,7 @@ pip install -r requirements.txt
 ```
 
 ### Install Tool
+
 I prefer -editable you can install without `-e` arg.
 
 ```
