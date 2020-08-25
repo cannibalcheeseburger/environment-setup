@@ -1,6 +1,9 @@
 
 # environment-setup
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 Tool to easily setup python environment. 
 
 ps: Doesnt work yet 

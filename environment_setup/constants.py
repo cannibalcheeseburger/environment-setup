@@ -4,6 +4,9 @@ Readme = f"""
 
 ## Installation
 
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 ### Build from Source
 Clone the repository and checkout to stable commit
 
