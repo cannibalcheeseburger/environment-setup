@@ -12,8 +12,8 @@ ps: Doesnt work yet
 Clone the repository and checkout to stable commit
 
 ```
-git clone https://github.com/cannibalcheeseburger/subtitles-downloader.git
-cd subtitles-downloader
+git clone https://github.com/cannibalcheeseburger/environment-setup.git
+cd environment-setup
 ```
 
 ### Install Requirements
