@@ -37,7 +37,7 @@ Tool-name
 
 [![Github](https://raw.githubusercontent.com/srbcheema1/CheemaFy/master/myPlugins/extra_things/png_images/social/github.png)](https://github.com/srbcheema1/)
 [![LinkedIn](https://raw.githubusercontent.com/srbcheema1/CheemaFy/master/myPlugins/extra_things/png_images/social/linkedin-48x48.png)](https://www.linkedin.com/in/srbcheema1/)
-[![Facebook](https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/instagram.svg = 250x250)](https://www.facebook.com/srbcheema/)
+[![Facebook](https://raw.githubusercontent.com/edent/SuperTinyIcons/master/images/svg/instagram.svg =250x250)](https://www.facebook.com/srbcheema/)
 
 
 ### Developed by
