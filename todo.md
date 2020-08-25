@@ -1,5 +1,5 @@
 # TODO
- - make a readme
+ - make a readme easy
  - make license
  - create gitignore
  - setup virtual environment

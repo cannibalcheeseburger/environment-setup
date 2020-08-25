@@ -1,23 +1,45 @@
+from . import constants
+
+def main():
+    # Making Readme.md
+    print("===================Creating Readme=====================\n")
 
 
-# Making Readme.md
+    with open("README.md",'w') as R:
+        R.writelines(constants.Readme)
 
-Readme = f"""
-
-### Contact / Social Media
-
-[![Github](https://raw.githubusercontent.com/srbcheema1/CheemaFy/master/myPlugins/extra_things/png_images/social/github.png)](https://github.com/srbcheema1/)
-[![LinkedIn](https://raw.githubusercontent.com/srbcheema1/CheemaFy/master/myPlugins/extra_things/png_images/social/linkedin-48x48.png)](https://www.linkedin.com/in/srbcheema1/)
-[![Facebook](https://raw.githubusercontent.com/srbcheema1/CheemaFy/master/myPlugins/extra_things/png_images/social/fb.png)](https://www.facebook.com/srbcheema/)
+    print("===================Created Readme======================\n\n\n")
 
 
-### Developed by
+    ## Creating License
 
-Developer / Author: [Srb Cheema](https://github.com/srbcheema1/)
+    print("===================Creating License=====================\n")
 
-"""
+    with open("LICENSE",'w') as L:
+        L.writelines(constants.license)
 
-with open("README.md",'w') as R:
-    R.writelines(Readme)
+    print("===================Created License======================\n\n\n")
 
-print(Readme)
+
+    ## Making gitignore
+
+    print("===================Creating gitignore=====================\n")
+
+    with open(".gitignore",'w') as git:
+        git.writelines(constants.gitignore)
+
+    print("===================Created gitignore======================\n\n\n")
+
+
+    # Manifest
+
+    print("===================Created MANIFEST.in======================\n\n\n")
+
+    with open("MANIFEST.in",'w') as M:
+        M.writelines(constants.manifest)
+
+    print("===================Created MANIFEST.in======================\n\n\n")
+
+
+if __name__ == "__main__":
+    main()
