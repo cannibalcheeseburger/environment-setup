@@ -36,6 +36,7 @@ def main():
     path_if = input("Enter path to folder: ")
     if path_if:
         path = path_if
+    os.chdir(path)
     #clone_repo()
     imp_files()
     make_dir()
