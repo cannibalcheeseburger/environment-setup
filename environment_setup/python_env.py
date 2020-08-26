@@ -2,10 +2,9 @@ from . import constants
 import os 
 import sys
 
-path = "D:/GITHUB/MERE_WALE/TRY"
-name = "sample"
-os.chdir(path)
+
 #os.chdir(path+sys.argv[1])
+name = "sample"
 
 def clone_repo():
     print("===Cloning git Repository===\n")
@@ -33,9 +32,12 @@ def main():
  #   if len(sys.argv)<2:
   #      print("cant")
    #     return
+    path = "D:/GITHUB/MERE_WALE/TRY"
+    name = "sample"
     path_if = input("Enter path to folder: ")
-    if path_if:
+    if path_if!="":
         path = path_if
+
     os.chdir(path)
     #clone_repo()
     imp_files()
