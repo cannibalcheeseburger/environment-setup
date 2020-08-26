@@ -6,7 +6,21 @@
 
 Tool to easily setup python environment. 
 
-ps: Doesnt work yet 
+ps: it works (for now)
+
+```
+.
+├── README.md
+├── sample
+│   │── __init__.py
+|   └── __main__.py
+├── LICENSE
+├── .gitignore
+├── setup.py
+└── tests
+    └── __init__.py
+```
+project structure ^
 
 ## Installation
 
@@ -37,6 +51,11 @@ I prefer -editable you can install without `-e` arg.
 ```
 python install -e .
 ```
+### Install Run
+
+```
+pip install git+https://github.com/cannibalcheeseburger/environment-setup.git
+```
 
 ## Usage
 
@@ -45,6 +64,7 @@ Setup python project and environment:
 ```
 envpy <path to folder>
 ```
+
 
 ### Contact / Social Media
 

@@ -21,7 +21,7 @@ setup(
     install_requires=requirements, #external packages as dependencies
 
     entry_points={
-        'console_scripts': ['envpy=environment_setup.python_env:main']
+        'console_scripts': ['envpy=environment_setup.__main__:main']
     },
 
     classifiers=[

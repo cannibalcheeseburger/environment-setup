@@ -3,7 +3,7 @@ import os
 import sys
 
 path = "D:/GITHUB/MERE_WALE/TRY"
-name = "hello"
+name = "sample"
 os.chdir(path)
 #os.chdir(path+sys.argv[1])
 
@@ -23,6 +23,8 @@ def make_dir():
     os.mkdir(name)
     with open(name+'/__init__.py', 'w') as fp: 
         pass
+    with open(name+'/__main__.py', 'w') as fp: 
+        pass
     os.mkdir("tests")
     with open('tests/__init__.py', 'w') as fp: 
         pass
@@ -31,6 +33,9 @@ def main():
  #   if len(sys.argv)<2:
   #      print("cant")
    #     return
+    path_if = input("Enter path to folder: ")
+    if path_if:
+        path = path_if
     #clone_repo()
     imp_files()
     make_dir()
