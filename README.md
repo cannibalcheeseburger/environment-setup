@@ -62,7 +62,7 @@ pip install git+https://github.com/cannibalcheeseburger/environment-setup.git
 Setup python project and environment:
 
 ```
-envpy <path to folder>
+envpy 
 ```
 
 
