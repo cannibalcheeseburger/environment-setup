@@ -44,25 +44,12 @@ For pip:
 pip install -r requirements.txt
 ```
 
-### Install Tool
-
-I prefer -editable you can install without `-e` arg.
-
-```
-python install -e .
-```
-### Install Run
-
-```
-pip install git+https://github.com/cannibalcheeseburger/environment-setup.git
-```
-
 ## Usage
 
 Setup python project and environment:
 
 ```
-envpy 
+python main.py
 ```
 
 

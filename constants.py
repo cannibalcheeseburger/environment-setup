@@ -1,6 +1,6 @@
-Readme = f"""
+Readme = r"""
 
-# Project Name
+# {name}
 
 ## Installation
 
@@ -11,8 +11,8 @@ Readme = f"""
 Clone the repository and checkout to stable commit
 
 ```
-git clone https://github.com/cannibalcheeseburger/subtitles-downloader.git
-cd subtitles-downloader
+git clone https://github.com/cannibalcheeseburger/{name}.git
+cd {name}
 ```
 
 ### Install Requirements
@@ -25,19 +25,11 @@ For pip:
 pip install -r requirements.txt
 ```
 
-### Install Tool
-I prefer -editable you can install without `-e` arg.
-
-```
-python install -e .
-```
-
 ## Usage
 
-Setup python project and environment:
-
+Run Script:
 ```
-envpy <path to folder>
+python main.py
 ```
 
 ### Contact / Social Media
@@ -70,7 +62,7 @@ Developer / Author: [Kashish Srivastava](https://github.com/cannibalcheeseburger
 license = f"""
 MIT License
 
-Copyright (c) 2020 Kashish srivastava
+Copyright (c) 2021 Kashish srivastava
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

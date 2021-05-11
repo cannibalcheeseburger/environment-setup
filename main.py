@@ -1,4 +1,4 @@
-from . import constants
+import constants
 import os 
 import sys
 
@@ -32,16 +32,18 @@ def main():
  #   if len(sys.argv)<2:
   #      print("cant")
    #     return
-    path = "D:/GITHUB/MERE_WALE/TRY"
-    name = "sample"
-    path_if = input("Enter path to folder: ")
+    path = "."
+    
+    path_if = "D:/GITHUB/MERE_WALE/"
+    global name 
+    name = input("Enter name of project:")
     if path_if!="":
         path = path_if
-
-    os.chdir(path)
+    os.mkdir(path+name)
+    os.chdir(path+name)
     #clone_repo()
     imp_files()
-    make_dir()
+    #make_dir()
     create_pipenv()
 
 
@@ -50,7 +52,7 @@ def imp_files():
     # Making Readme.md
     print("Creating README.md")
     with open("README.md",'w') as R:
-        R.writelines(constants.Readme)
+        R.writelines(constants.Readme.format(name=name))
     
     ## Creating License
     print("Creating LICENSE")
@@ -63,14 +65,14 @@ def imp_files():
         git.writelines(constants.gitignore)
     
     # Manifest
-    print("Creating MANIFEST.in")
-    with open("MANIFEST.in",'w') as M:
-        M.writelines(constants.manifest)
+    #print("Creating MANIFEST.in")
+    #with open("MANIFEST.in",'w') as M:
+    #    M.writelines(constants.manifest)
     
      # Setup
-    print("Creating Setup.py")
-    with open("setup.py",'w') as S:
-        S.writelines(constants.setup)
+    #print("Creating Setup.py")
+    #with open("setup.py",'w') as S:
+    #    S.writelines(constants.setup)
     
 if __name__ == "__main__":
     main()
